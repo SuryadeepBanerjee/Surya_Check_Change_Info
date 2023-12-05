@@ -1,0 +1,22 @@
+In the 'cci' module, there are 3 functions, they are:  check(),  change(), info()
+
+check() - Checks the data type of element inside a string. 
+    It returns 0 for bool value "False",
+    It returns 1 for bool value "True",
+    It returns 2 for int,
+    It returns 3 for float,
+    It returns 4 for complex numbers,
+    It returns 5 for string,
+    It returns 6 for lists,
+    It returns 7 for tuples,
+    It returns 8 for dictionaries,
+    It returns 9 for set.
+  usage - cci.check(<str>)
+
+change() - Changes the text inside a string variable to the compatable type.
+  usage - cci.change(<str>)
+
+info() - Gives the 'type()' of the context inside a string.
+  usage - cci.info(<str>)
+
+NOTE : Input should be a 'str' type variable.
