@@ -1,4 +1,14 @@
-In the 'cci' module, there are 3 functions, they are:  check(),  change(), info()
+Setup Prosses:
+
+Download the 'setup.bat' file from this Github page and run it, or enter 'pip install scci' in cmd. 'pip' must be already installed.
+OR
+Download the 'scci.py' module and move it to your default python library.
+
+
+
+Usage Process:
+
+In the 'scci' module, there are 3 functions, they are:  check(),  change(), info()
 
 check() - Checks the data type of element inside a string. 
     It returns 0 for bool value "False",
@@ -11,12 +21,12 @@ check() - Checks the data type of element inside a string.
     It returns 7 for tuples,
     It returns 8 for dictionaries,
     It returns 9 for set.
-  usage - cci.check(<str>)
+  usage - scci.check(<str>)
 
 change() - Changes the text inside a string variable to the compatable type.
-  usage - cci.change(<str>)
+  usage - scci.change(<str>)
 
 info() - Gives the 'type()' of the context inside a string.
-  usage - cci.info(<str>)
+  usage - scci.info(<str>)
 
 NOTE : Input should be a 'str' type variable.
